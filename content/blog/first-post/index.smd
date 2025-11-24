@@ -1,23 +1,35 @@
 ---
 .title = "First Post: What's A Zine?",
-.date = @date("1990-01-01T00:00:00"),
-.author = "Sample Author",
+.date = @date("2025-11-24T16:53:41"),
+.author = "Chris Morton",
 .layout = "post.shtml",
 .draft = false,
 --- 
 
-This is a sample first post for your blog.
+This website is built using [Zine][zine], a fantastic static site generator (SSG)
+written in [Zig]. There are tons of SSGs to choose from, so why did I pick this
+one?
 
-This post is defined in `content/blog/first-post/` and contains the following
-files:
+Firstly, I **LOVE** open-source software (OSS). Using, creating, forking, and
+contributing to open source is a passion of mine. Zig is a fantastic systems
+language, and I gel with its ethos a lot. I was even about to take the plunge
+and write _yet another_ SSG myself as a hobby project. But when I looked at what
+[Loris’s][loris] Zine was capable of, I instantly decided to use it.
 
-- `index.smd`
-- `fanzine.jpg`
+Using OSS early in its development is important, as those first few users can
+find bugs and test new features—while the project isn’t set in stone. A change
+in thinking is far easier for a child than an adult.
 
-Another interesting thing about this post is that it uses the `layouts/post.shtml`
-template which adds at the bottom page navigation within the blog section.
+So far, Zine has been an absolute breeze to use: a great developer experience
+with a hot-reloading development server baked in, and surprisingly detailed
+documentation for a young project. Plus, I really like the way it organizes
+content and templates. It uses a simple shared scripting language for both
+Markdown and HTML.
 
-Enough about Zine, let's talk about zines.
+Loris left this tidbit about why he named his SSG “Zine” in the default
+template. I thought it was interesting, so I left it in.
+
+-- Chris
 
 ## Fanzines
 
@@ -108,3 +120,7 @@ enough other preconditions are met.
 With that in mind, **go make art with your words**.
 
 -- Loris
+
+[zine]: https://zine-ssg.io/
+[loris]: https://github.com/kristoff-it
+[zig]: https://ziglang.org/
