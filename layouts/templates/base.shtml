@@ -16,9 +16,9 @@
 			<a href="$site.page('about').link()">About</a>
 			&nbsp; • &nbsp;
 			<a href="$site.page('blog').link()">Blog</a>
-			<ctx :if="$site.page('devlog').subpages().first?()">
+			<ctx :if="$site.page('noiselog').subpages().first?()">
 				&nbsp; • &nbsp;
-				<a href="$if.link()">Devlog</a>
+				<a href="$if.link()">Noiselog</a>
 			</ctx>
 		</nav>
 		<super>

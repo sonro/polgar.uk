@@ -95,10 +95,10 @@ Zine gives you a small puzzle piece to help you inch closer toward a better
 future, partially by providing you with a new iteration over tried and true
 patterns (e.g. by facilitating content creation by separating content from
 layouting concerns as much as possible), and also by being a bit experimental
-with the concept of a devlog, something that you wouldn't normally expect to
+with the concept of a noiselog, something that you wouldn't normally expect to
 find on a static website.
 
-Lastly, Zine makes sure your content (both blog and devlog, but also any
+Lastly, Zine makes sure your content (both blog and noiselog, but also any
 other content format you might come up with yourself) is available via RSS
 syndication. RSS feeds are far from a winning technology in the fight against
 the ebb and *enshitty*flow of social media, but they are another small puzzle
