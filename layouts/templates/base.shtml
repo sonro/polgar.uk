@@ -26,6 +26,24 @@
 			<hr>
 			<h5>SITE UNDER CONSTRUCTION</h5>
 			<img src="$site.asset('under-construction.gif').link()" width=90>
+			<div class="license">
+				<p class="license-content">
+					© 2025 by Polgar.  All image and text material on this site
+					is licensed under
+					<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+					<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+					     alt=""
+					     style="width: 1em;height:1em;margin-left:.2em;"
+					>
+					<img src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+					     alt=""
+					     style="width: 1em;height:1em;margin-left: .2em;"
+					>
+				</p>
+				<p class="license-content">
+					Please see individual licenses for audio and video material.
+				</p>
+			</div>
 		</footer>
 	</body>
 </html>

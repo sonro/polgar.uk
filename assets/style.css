@@ -83,3 +83,12 @@ footer {
 footer hr {
   width: 100%;
 }
+
+.license {
+  margin-top: 1em;
+}
+
+.license-content {
+  font-size: 0.8em;
+  margin: 0;
+}
