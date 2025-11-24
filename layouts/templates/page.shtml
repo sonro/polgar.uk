@@ -1,0 +1,10 @@
+<extend template="base.shtml">
+<head id="head">
+	<super>
+</head>
+<header id="header">
+	<h1 class="page-site-title" :text="$site.title"></h1>
+</header>
+<body id="body">
+	<super>
+</body>

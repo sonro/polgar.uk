@@ -1,4 +1,4 @@
-<extend template="base.shtml">
+<extend template="page.shtml">
 <head id="head">
 	<style>
 		#prev-next {

@@ -3,24 +3,27 @@
 	<head id="head">
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1">
-		<title :text="$site.title"></title>
 		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
 		<link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
+		<title><ctx :text="$site.title"></ctx>
+		| <ctx :text="$page.title"></ctx></title>
 		<super>
 	</head>
 	<body id="body">
-		<h1 class="site-title" :text="$site.title"></h1>
-		<nav>
-			<a href="$site.page('').link()">Home</a>
-			&nbsp; • &nbsp;
-			<a href="$site.page('about').link()">About</a>
-			&nbsp; • &nbsp;
-			<a href="$site.page('blog').link()">Blog</a>
-			<ctx :if="$site.page('noiselog').subpages().first?()">
+		<header id="header">
+			<nav>
+				<a href="$site.page('').link()">Home</a>
 				&nbsp; • &nbsp;
-				<a href="$if.link()">Noiselog</a>
-			</ctx>
-		</nav>
+				<a href="$site.page('about').link()">About</a>
+				&nbsp; • &nbsp;
+				<a href="$site.page('blog').link()">Blog</a>
+				<ctx :if="$site.page('noiselog').subpages().first?()">
+					&nbsp; • &nbsp;
+					<a href="$if.link()">Noiselog</a>
+				</ctx>
+			</nav>
+			<super>
+		</header>
 		<super>
 		<footer>
 			<hr>
