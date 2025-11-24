@@ -4,7 +4,7 @@
     <link :text="$site.host_url"></link>
     <description :text="$site.title.suffix(' - Blog')"></description>
     <generator>Zine -- https://zine-ssg.io</generator>
-    <language>en-US</language>
+    <language>en-GB</language>
     <lastBuildDate :text="$build.generated.formatHTTP()"></lastBuildDate>
     <ctx :loop="$page.subpages()">
       <item>
