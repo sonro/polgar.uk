@@ -7,26 +7,53 @@
 --- 
 []($section.id('about'))
 ## About this Noiselog
-Small technical updates, reviews, and insights into the things we are working on.
-Written by Chris.
 
-You can [subscribe to this page via RSS]($link.page('noiselog').alternative('rss')).
+Small technical updates, reviews, and insights into the things we are working
+on. Written by Chris.
 
-This page lists entries for the year 2025, for past or future entries consult the
-[noiselog archive](/noiselog/).
+You can [subscribe to this page via
+RSS]($link.page('noiselog').alternative('rss')).
+
+This page lists entries for the year 2025, for past or future entries consult
+the [noiselog archive](/noiselog/).
+
+## [Pick a colour]($section.id("2025-11-25T10:09:43"))
+
+Any new artist needs a recognisable art style, and it certainly helps to stay
+consistent across photos, logos, videos, fonts -- even the way you write. These
+things can evolve, of course. Traditionally (since the 60s), bands have tied
+changes in their visual identity to album cycles. I’m not convinced the
+_“album”_ should be the milestone musicians organise themselves around
+anymore, but that’s a conversation for another day.
+
+Once you’ve settled on a colour you like, building a palette around it has
+never been easier. You don’t need a degree in colour theory to open up
+[coolors.co][coolors] or [color-hex.com][color-hex] and happily experiment
+until something fits your aesthetic.
+
+It didn’t take us long to land on the red we wanted. A mix of French New Wave
+posters, Tarantino’s stylised grit, and some striking Queen’s Gambit fan art
+nudged us towards the rather seductive
+**[#c60420]($text.attrs("polgar-red"))**.
+
+-- Chris
+
+[coolors]: https://coolors.co/
+[color-hex]: https://www.color-hex.com/
 
 ## [Hello, World!]($section.id("2025-11-24T16:19:00"))
+
 What the hell is a noiselog?
 
-It's like a devlog. So what's a devlog?
-> _"A devlog is a blog or diary that updates an audience on the
-> development progress of a project, typically a video game, website, or app."_
->
-> [Wiktionary][devlog]
+It's like a devlog. So what's a devlog?  > _"A devlog is a blog or diary that
+updates an audience on the > development progress of a project, typically a
+video game, website, or app."_ > > [Wiktionary][devlog]
 
 **Why do this?** I like microblogging, nerding out about music, coding, audio
 tech, and how musicians work behind the scenes. The more in-depth stuff will
-probably end up in the [blog]($link.page("blog")). Also, with this outlet, I can
-avoid nerding out on social media... too much.
+probably end up in the [blog]($link.page("blog")). Also, with this outlet, I
+can avoid nerding out on social media... too much.
+
+-- Chris
 
 [devlog]: https://en.wiktionary.org/wiki/devlog
