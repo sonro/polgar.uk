@@ -6,5 +6,6 @@ Site {
     .assets_dir_path = "assets",
     .static_assets = [
         "bg-chess-tile-240.jpg",
-],
+        "robots.txt",
+    ],
 }
