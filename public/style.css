@@ -1,0 +1,168 @@
+:root {
+  font-size: 16px;
+
+  --c-black: #140103;
+  --c-white: #FFEBEE;
+  --c-polgar: #c60420;
+  --c-contrast: #04c6aa;
+
+  --c-dark: #280106;
+  --c-light: #d9cfd1;
+  --c-light-c: #f6ffff;
+  --c-light-d: #498181;
+  --c-bg: #181A1B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /* color: var(--c-white); */
+  color: var(--c-polgar);
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+
+b,
+strong {
+  color: var(--c-white);
+}
+
+a {
+  color: var(--c-light-c);
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  color: var(--c-light);
+  font-family: "Scope One", serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--c-bg);
+  background-image: url("/bg-chess-tile-240.jpg");
+  background-repeat: repeat;
+  background-size: 240px 240px;
+  background-attachment: fixed;
+}
+
+body {
+  width: 800px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  background-color: #00000005;
+}
+
+.home-site-title {
+  font-size: 6rem;
+  max-width: 100%;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--c-polgar);
+  text-shadow: 4px 4px 0px var(--c-contrast);
+}
+
+
+.page-site-title {
+  font-size: 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 100;
+  color: var(--c-polgar);
+}
+
+.page-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  text-align: center;
+  font-weight: 800;
+  color: var(--c-light-c);
+}
+
+@media screen and (min-width: 800px) {
+  .home-site-title {
+    font-size: 10rem;
+    text-shadow: 6px 6px 0px var(--c-contrast);
+  }
+
+  .page-site-title {
+    font-size: 3rem;
+  }
+
+  .page-title {
+    font-size: 5rem;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.block {
+  border: 1px dotted white;
+  padding: 5px 15px;
+  margin: 0 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block h1 {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.small {
+  font-size: 0.8rem;
+}
+
+.wave {
+  background: #111;
+  color: #fff;
+  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+}
+
+.license {
+  margin-top: 1rem;
+}
+
+.license-content {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.polgar-red {
+  color: var(--c-polgar);
+}
