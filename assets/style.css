@@ -5,7 +5,6 @@
   --c-white: #FFEBEE;
   --c-polgar: #c60420;
   --c-contrast: #04c6aa;
-  /* --c-contrast: #dd0; */
 
   --c-dark: #280106;
   --c-light: #d9cfd1;
@@ -40,6 +39,7 @@ figure {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 html {
@@ -49,6 +49,10 @@ html {
   flex-direction: row;
   justify-content: center;
   background-color: var(--c-bg);
+  background-image: url("/bg-chess-tile-240.jpg");
+  background-repeat: repeat;
+  background-size: 240px 240px;
+  background-attachment: fixed;
 }
 
 body {
