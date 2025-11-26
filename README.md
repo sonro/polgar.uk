@@ -16,6 +16,8 @@ Source code for the official website of the band [Polgar][polgar].
 - [ ] Homepage (news)
 - [ ] Splash
 - [ ] Content, copy, and bumf
+    - [ ] Blog home copy
+    - [ ] About
 - [ ] Meta
 - [ ] Error pages
 
