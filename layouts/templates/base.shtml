@@ -1,60 +1,61 @@
 <!DOCTYPE html>
 <html>
 	<head id="head">
-        <!-- std -->
+		<!-- std -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1">
-        <link rel="icon" href="/favicon.ico">
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-        <!-- meta tags -->
-        <ctx title="$site.title.suffix(' | ', $page.title)"
-            desc="$page.description"
-            url="$site.host_url.addPath($page.link())"
-        >
-		<title :text="$ctx.title"></title>
-        <meta name="description" content="$ctx.desc">
-        <link rel="canonical" href="$ctx.url">
-        <meta name="language" content="en-GB">
+		<!-- meta tags -->
+		<ctx title="$site.title.suffix(' | ', $page.title)"
+		     desc="$page.description"
+		     url="$site.host_url.addPath($page.link())"
+		>
+			<title :text="$ctx.title"></title>
+			<meta name="description" content="$ctx.desc">
+			<link rel="canonical" href="$ctx.url">
+			<meta name="language" content="en-GB">
 
-        <meta name="music:artist" content="Polgar">
-        <meta name="music:genre" content="Alternative pop">
+			<meta name="music:artist" content="Polgar">
+			<meta name="music:genre" content="Alternative pop">
 
-        <meta property="og:title" content="$ctx.title">
-        <meta property="og:description" content="$ctx.desc">
-        <meta property="og:url" content="$ctx.url">
+			<meta property="og:title" content="$ctx.title">
+			<meta property="og:description" content="$ctx.desc">
+			<meta property="og:url" content="$ctx.url">
 
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="$ctx.title">
-        <meta name="twitter:description" content="$ctx.desc">
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:title" content="$ctx.title">
+			<meta name="twitter:description" content="$ctx.desc">
 
-        <!-- set on each page type -->
-            <!-- <meta property="og:image" content=""> -->
-            <!-- <meta property="og:type" content="website"> -->
-            <!-- <meta name="twitter:image" content=""> -->
+			<!-- set on each page type -->
+			<!-- <meta property="og:image" content=""> -->
+			<!-- <meta property="og:type" content="website"> -->
+			<!-- <meta name="twitter:image" content=""> -->
 
-        <meta name="theme-color" content="#c60420">
-        </ctx> <!-- / meta tags -->
+			<meta name="theme-color" content="#c60420">
+		</ctx>
+		<!-- / meta tags -->
 
-        <!-- fonts -->
+		<!-- fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Scope+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
 		      rel="stylesheet"
 		>
 
-        <!-- style -->
+		<!-- style -->
 		<link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
 		<link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
 		<super>
 	</head>
 	<body id="body">
 		<header id="header">
-			<nav>
+			<nav class="site-nav">
 				<a href="$site.page('').link()">Home</a>
 				&nbsp; • &nbsp;
-				<a href="$site.page('about').link()">About</a>
-				&nbsp; • &nbsp;
+				<!-- <a href="$site.page('about').link()">About</a>
+				&nbsp; • &nbsp; -->
 				<a href="$site.page('blog').link()">Blog</a>
 				<ctx :if="$site.page('noiselog').subpages().first?()">
 					&nbsp; • &nbsp;

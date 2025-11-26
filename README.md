@@ -4,6 +4,21 @@
 
 Source code for the official website of the band [Polgar][polgar].
 
+## Todo
+
+- [ ] Favicon
+- [ ] Sitemap
+- [ ] Wordprint (logo)
+- [ ] Socials / links
+- [ ] Contact details
+- [ ] Placeholders for video
+- [ ] Placeholders for audio
+- [ ] Homepage (news)
+- [ ] Splash
+- [ ] Content, copy, and bumf
+- [ ] Meta
+- [ ] Error pages
+
 ## Zine
 
 This site is built using [Zine][zine] - a fast, scalable, flexible Static 
