@@ -20,6 +20,7 @@ Source code for the official website of the band [Polgar][polgar].
     - [ ] About
 - [ ] Meta
 - [ ] Error pages
+- [ ] More
 
 ## Zine
 
