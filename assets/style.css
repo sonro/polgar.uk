@@ -93,6 +93,10 @@ body {
   color: var(--c-light-c);
 }
 
+.post-title {
+  color: var(--c-light-c);
+}
+
 @media screen and (min-width: 800px) {
   .home-site-title {
     font-size: 10rem;
