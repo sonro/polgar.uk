@@ -17,6 +17,34 @@ RSS]($link.page('noiselog').alternative('rss')).
 This page lists entries for the year 2025, for past or future entries consult
 the [noiselog archive](/noiselog/).
 
+## [Sitemap]($section.id("2025-11-26T09:17:00"))
+
+Is it necessary to create a `sitemap.xml` file for a static site in 2025?
+Probably not, but if we want to be good internet citizens, we should conform
+to all the things the little robots crave. This site already has a
+`robots.txt`, so that box is ticked.
+
+Creating a sitemap is easy once your site is online. There are websites and
+tools that iterate through all your pages — dynamic or static — and forge a
+perfectly serviceable file. But it took me far too long to find an offline,
+static-site sitemap generator, so I’m building my own.
+
+The goal is that each time I deploy the site, [Zine][zine] will do its thing
+and generate the public folder, then my sitemap tool will scan it and create
+an up-to-date `sitemap.xml`. Should be fairly simple to implement (famous last
+words).
+
+I’m writing it in [Zig][zig], of course. It makes sense to use the same
+toolchain as Zine, and I’m rather fond of the language. I’m naming it
+[Pathwright][pathwright].
+
+
+-- Chris
+
+[zine]: /blog/first-post/
+[zig]: https://ziglang.org/
+[pathwright]: https://github.com/sonro/pathwright
+
 ## [Pick a colour]($section.id("2025-11-25T10:09:43"))
 
 Any new artist needs a recognisable art style, and it certainly helps to stay
