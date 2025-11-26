@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://polgar.uk/sitemap.xml
