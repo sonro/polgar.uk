@@ -17,6 +17,84 @@ RSS]($link.page('noiselog').alternative('rss')).
 This page lists entries for the year 2025, for past or future entries consult
 the [noiselog archive](/noiselog/).
 
+## [Beatboxing mics]($section.id("2025-11-29T16:54:00"))
+
+Before we started our songwriting session today, Mike and I tried out a few
+different ways of recording his beatboxing. There are plenty more microphones
+I want to test, but in our whole collection it seems the humble SM58 handles it
+best — somehow sounding better than the fancier options.
+
+To be clear, it’s not perfect. The low-end isn’t as full as we’d like, and it
+doesn’t capture every tiny detail, but it delivers a punch that nothing else
+managed. And for beatboxing, those natural percussive transients are the holy
+grail. After all, more bass can always be added later with triggered parallel
+pitch-shifting or layered synths.
+
+So while we’re writing, Mike is just using the same setup we use for live shows
+with the loop-station. I simply track the main outputs and match the tempo in
+Reaper.
+
+-- Chris
+
+## [Gotta' get that toan]($section.id("2025-11-28T19:08:00"))
+
+All of this is just for the feel of the instrument. I care little for the
+authenticity of a guitar tone, especially as guitarists are usually the only
+people who care.
+
+For this songwriting Reaper template, instead of firing up the old Voxes, I’m
+using my two favourite amp-sim plugins: IK Multimedia’s [AmpliTube][amplitube]
+and Native Instruments’ [Guitar Rig][guitarrig]. AmpliTube offers a downright
+delicious recreation of the AC30, and Guitar Rig comes loaded with gloriously
+odd presets for ambient, textural, and effect-driven sounds.
+
+There are a couple of little tricks I use to make these digital tools feel more
+natural while I’m playing through them. First, I always drop a modelled
+compressor between the power amp and the speaker sim. I usually reach for some
+flavour of 1176 when I want that funky, snappy bite, and a Vari-Mu (a tube
+compressor) when I’m after _“moar toan”_. That’s a huge part of what a valve
+power amp does: warmly squeezing the signal into something that breathes.
+
+The other trick — easily my most overused move in my entire plugin toolbelt —
+is sticking a good saturation plugin on the guitar bus. Usually FabFilter
+[Saturn][saturn], because it just works.
+
+All of this is purely for the feel of the instrument. I care very little about
+the supposed “authenticity” of a guitar tone, especially given that guitarists
+tend to be the only people who notice.
+
+-- Chris
+
+[amplitube]: https://www.ikmultimedia.com/products/amplitube5/
+[guitarrig]: https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-7-pro/
+[saturn]: https://www.fabfilter.com/products/saturn-2-multiband-distortion-saturation-plug-in
+
+
+## [Write space]($section.id("2025-11-27T21:06:00"))
+
+How can I create the best environment for us to write music?
+
+Recently, the three of us have been on a proper songwriting streak. It’s been
+so productive that we’ve shelved all our other plans and thrown ourselves into
+making our first EP. Step one is simple: write more songs for it. We already
+have a healthy pile of individual ideas and half-finished pieces, but while
+we’re in this creative gear, it feels right to carve out time for fresh
+material that sounds like _"Polgar."_
+
+I want to catch as much of that new music as possible the moment it sparks.
+To help with that, I’ve started building a template in Reaper. Plenty of
+producers swear by templates in their DAW (Digital Audio Workstation), but
+I’ve never been the biggest fan. There’s something romantic about opening a
+blank project with no blueprint and no expectations. Still, once multiple
+people are involved and momentum is precious, a bit of structure goes a long
+way.
+
+So now I’m retraining my _"blank page"_ instincts. The template isn’t a cage;
+it’s more like staff lines to write on, or graph paper that lets you draw
+freely without losing the thread.
+
+-- Chris
+
 ## [Sitemap]($section.id("2025-11-26T09:17:00"))
 
 Is it necessary to create a `sitemap.xml` file for a static site in 2025?
