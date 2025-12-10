@@ -17,6 +17,33 @@ RSS]($link.page('noiselog').alternative('rss')).
 This page lists entries for the year 2025, for past or future entries consult
 the [noiselog archive](/noiselog/).
 
+## [Tracking tracks]($section.id("2025-12-01T06:01:00"))
+
+The songwriting is going swimmingly. We’re writing — and recording via my
+template — a song each session. But one of our ideas is something we want to
+finish properly before we start tracking our debut EP. So while we plan to keep
+our songwriting routine going, we’re going to try and record Zombie Space.
+
+I’m really quite excited — it’ll be good to release something of ours into the
+aether while we continue to hone what we want our first EP to be. It’s also a
+great chance to test how well a Reaper project can transition from my
+songwriting template into a more _“tracking friendly”_ state.
+
+The first technique I’m using is dedicated tracking tracks — which sounds like
+silly wordplay but actually makes complete sense. For each instrument, whether
+it’s beatboxing, vocals, guitar, or even a MIDI keyboard part, I create a
+separate track where all new takes are recorded. Once we’re happy with that
+performance, the recorded or comped item gets moved somewhere more logical,
+freeing up the tracking track for the next idea from that instrument. It keeps
+the project organised and makes it quick to set up the right monitoring FX for
+a perfect take, whether that’s a hint of reverb or just rolling off the subs.
+
+Having a dedicated track for tracking also makes it easier to set levels for
+monitoring mixes. I used to (in moments of haste) just duplicate tracks and
+rename them, but this new method is cleaner, faster, and far more intentional.
+
+-- Chris
+
 ## [Beatboxing mics]($section.id("2025-11-29T16:54:00"))
 
 Before we started our songwriting session today, Mike and I tried out a few
@@ -37,10 +64,6 @@ Reaper.
 -- Chris
 
 ## [Gotta' get that toan]($section.id("2025-11-28T19:08:00"))
-
-All of this is just for the feel of the instrument. I care little for the
-authenticity of a guitar tone, especially as guitarists are usually the only
-people who care.
 
 For this songwriting Reaper template, instead of firing up the old Voxes, I’m
 using my two favourite amp-sim plugins: IK Multimedia’s [AmpliTube][amplitube]
