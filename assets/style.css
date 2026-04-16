@@ -2,7 +2,7 @@
   font-size: 16px;
 
   --c-black: #140103;
-  --c-white: #FFEBEE;
+  --c-white: #ffebee;
   --c-polgar: #c60420;
   --c-contrast: #04c6aa;
 
@@ -10,7 +10,7 @@
   --c-light: #d9cfd1;
   --c-light-c: #f6ffff;
   --c-light-d: #498181;
-  --c-bg: #181A1B;
+  --c-bg: #181a1b;
 }
 
 h1,
@@ -60,7 +60,8 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 1.2rem;
-  background-color: #00000005;
+  /* background-color: #00000005; */
+  /* background-color: #00000005; */
 }
 
 .home-site-title {
@@ -74,6 +75,29 @@ body {
   text-shadow: 4px 4px 0px var(--c-contrast);
 }
 
+.home-site-h1 {
+  display: none;
+}
+
+.home-splash {
+  background-image: url("/home-splash.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+  background-size: 100%;
+  width: 100vw;
+  margin: 0 auto;
+  margin-left: calc(50% - 50vw);
+  text-align: center;
+  border: 1rem solid var(--c-polgar);
+  border-left: none;
+  border-right: none;
+}
+
+.wordprint-image {
+  margin: 1rem auto;
+  width: 98%;
+  max-width: 1628px;
+}
 
 .page-site-title {
   font-size: 1.8rem;
@@ -143,7 +167,9 @@ nav {
 .wave {
   background: #111;
   color: #fff;
-  text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+  text-shadow:
+    1px 1px 10px #fff,
+    1px 1px 10px #ccc;
 }
 
 footer {
@@ -169,3 +195,4 @@ hr {
 .polgar-red {
   color: var(--c-polgar);
 }
+

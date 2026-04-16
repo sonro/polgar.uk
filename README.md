@@ -6,20 +6,30 @@ Source code for the official website of the band [Polgar][polgar].
 
 ## Todo
 
-- [ ] Favicon
+- [x] Favicon
+- [x] Wordprint (logo)
+- [x] Background
+- [x] Splash
+- [ ] Basic Homepage
+    - [ ] Socials / links
+    - [ ] Contact details
+    - [ ] Basic About
+- [ ] Meta
+- [ ] Hosting
+- [ ] Error pages
 - [ ] Sitemap
-- [ ] Wordprint (logo)
-- [ ] Socials / links
-- [ ] Contact details
+- [ ] Robots
+- [ ] Blog
+- [ ] Noiselog
+
+### Later
+
+- [ ] Homepage (news)
 - [ ] Placeholders for video
 - [ ] Placeholders for audio
-- [ ] Homepage (news)
-- [ ] Splash
 - [ ] Content, copy, and bumf
     - [ ] Blog home copy
     - [ ] About
-- [ ] Meta
-- [ ] Error pages
 - [ ] More
 
 ## Zine
